@@ -48,3 +48,27 @@ Monitoramento Inteligente e Diagnóstico de Falhas em Sistemas Elétricos utiliz
 - Proteção elétrica inteligente
 - Supervisão de grupos geradores
 - Monitoramento remoto de energia
+---
+
+# Research Roadmap
+
+## Phase 1
+- Literature review
+- ESP32 setup
+- Sensor integration
+- Initial monitoring tests
+
+## Phase 2
+- MQTT communication
+- Node-RED dashboard
+- Real-time monitoring
+
+## Phase 3
+- Fault detection
+- Data analysis
+- Predictive maintenance applications
+
+## Phase 4
+- Scientific publication
+- Experimental validation
+- Dissertation development
