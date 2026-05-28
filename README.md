@@ -1,74 +1,146 @@
-# Sistema Inteligente de Monitoramento Elétrico
+# Sistema Inteligente para Monitoramento Remoto de Grupos Geradores
 
-Projeto de pesquisa voltado para monitoramento inteligente e diagnóstico de falhas em sistemas elétricos utilizando IoT e sensores.
+Projeto de pesquisa voltado ao desenvolvimento de um sistema inteligente de monitoramento remoto de grupos geradores utilizando ESP32, sensores elétricos e tecnologias IoT.
 
-## Objetivos
-
-- Monitorar parâmetros elétricos em tempo real;
-- Desenvolver sistema de supervisão remota;
-- Detectar anomalias elétricas;
-- Integrar sensores e IoT aplicados à energia;
-- Desenvolver arquitetura para futuras aplicações em smart grids.
-
-## Tecnologias Utilizadas
-
-- ESP32
-- MQTT
-- Node-RED
-- Sensores de corrente
-- Sensores de tensão
-- Python
-- IoT
-
-## Estrutura do Projeto
-
-### articles
-Artigos científicos e revisão bibliográfica.
-
-### codes
-Códigos-fonte do ESP32 e scripts auxiliares.
-
-### hardware
-Montagem física, sensores e protótipos.
-
-### data
-Dados coletados e arquivos CSV.
-
-### diagrams
-Diagramas elétricos e arquitetura do sistema.
-
-## Linha de Pesquisa
-
-Monitoramento Inteligente e Diagnóstico de Falhas em Sistemas Elétricos utilizando IoT e Sensores.
-
-## Aplicações Futuras
-
-- Smart Grids
-- Manutenção preditiva
-- Proteção elétrica inteligente
-- Supervisão de grupos geradores
-- Monitoramento remoto de energia
 ---
 
-# Research Roadmap
+# Objetivos
 
-## Phase 1
-- Literature review
-- ESP32 setup
-- Sensor integration
-- Initial monitoring tests
+* Monitorar tensão e corrente em tempo real;
+* Desenvolver sistema de supervisão remota;
+* Integrar sensores elétricos e IoT;
+* Implementar aquisição e transmissão de dados;
+* Desenvolver arquitetura embarcada de baixo custo;
+* Criar base para futuras aplicações em diagnóstico inteligente de falhas.
 
-## Phase 2
-- MQTT communication
-- Node-RED dashboard
-- Real-time monitoring
+---
 
-## Phase 3
-- Fault detection
-- Data analysis
-- Predictive maintenance applications
+# Tecnologias Utilizadas
 
-## Phase 4
-- Scientific publication
-- Experimental validation
-- Dissertation development
+* ESP32
+* MQTT
+* ThingSpeak
+* Sensores de corrente (ACS712)
+* Sensores de tensão (ZMPT101B)
+* IoT
+* Sistemas embarcados
+* Wi-Fi
+
+---
+
+# Estrutura do Projeto
+
+## artigos
+
+Artigos científicos, revisão bibliográfica e referências acadêmicas.
+
+---
+
+## codigos
+
+Códigos-fonte do ESP32, comunicação MQTT e scripts auxiliares.
+
+---
+
+## hardware
+
+Montagem física do protótipo, sensores e componentes eletrônicos.
+
+---
+
+## dados
+
+Dados coletados, testes experimentais e arquivos CSV.
+
+---
+
+## diagramas
+
+Diagramas elétricos, arquitetura do sistema e fluxogramas.
+
+---
+
+## research
+
+Documentação da pesquisa, revisão bibliográfica e estruturação da dissertação.
+
+---
+
+# Linha de Pesquisa
+
+Monitoramento remoto inteligente de grupos geradores utilizando sensores elétricos, ESP32 e tecnologias IoT.
+
+---
+
+# Aplicações Futuras
+
+* Supervisão remota de grupos geradores;
+* Monitoramento inteligente de sistemas elétricos;
+* Alarmes operacionais;
+* Diagnóstico inteligente de falhas;
+* Manutenção preditiva;
+* Sistemas elétricos inteligentes.
+
+---
+
+# Arquitetura Inicial do Sistema
+
+Sensores elétricos → ESP32 → Wi-Fi/MQTT → Dashboard → Supervisão remota
+
+---
+
+# Parâmetros Monitorados
+
+## Primeira etapa
+
+* Tensão;
+* Corrente.
+
+## Etapas futuras
+
+* Potência;
+* Frequência;
+* Temperatura.
+
+---
+
+# Roteiro de Pesquisa
+
+## Fase 1
+
+* Revisão bibliográfica;
+* Organização da literatura;
+* Definição da arquitetura;
+* Configuração inicial do ESP32.
+
+---
+
+## Fase 2
+
+* Integração dos sensores;
+* Aquisição de dados;
+* Comunicação MQTT;
+* Dashboard supervisório.
+
+---
+
+## Fase 3
+
+* Monitoramento remoto em tempo real;
+* Armazenamento de dados;
+* Testes experimentais.
+
+---
+
+## Fase 4
+
+* Análise dos resultados;
+* Validação experimental;
+* Publicação científica;
+* Desenvolvimento da dissertação.
+
+---
+
+# Objetivo da Pesquisa
+
+Desenvolver um sistema inteligente para monitoramento remoto de grupos geradores utilizando ESP32, sensores elétricos e comunicação IoT para aquisição, transmissão e supervisão de parâmetros elétricos em tempo real.
